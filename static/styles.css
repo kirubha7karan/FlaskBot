@@ -9,7 +9,8 @@ body {
 }
 
 .chatbot-container {
-  width: 400px;
+  width: 900px;
+  height: 700px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +33,7 @@ body {
   scrollbar-width: none; /* Hide scrollbar for Firefox */
   -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
   border-bottom: 1px solid #ddd;
-  max-height: 300px; /* Set a max height for the chat container */
+  max-height: 550px; /* Set a max height for the chat container */
 }
 
 .chatbot-messages::-webkit-scrollbar {

@@ -18,6 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
       // Add regular message text
       const messageText = document.createElement('p');
       messageText.textContent = text;
+      if (!isUser) {
+        messageText.innerHTML = marked.parse(text);
+      } else {
+        messageText.textContent = text;
+      }
       messageDiv.appendChild(messageText);
     }
 
